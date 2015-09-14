@@ -37,7 +37,7 @@ var TypeScriptApiGenerator = yeoman.generators.Base.extend({
     // Folder scaffolding
     scaffolding: function() {
         mkdirp("server");
-        console.log("\n" + chalk.red("Folders Created\n"));
+        console.log(chalk.red("Folders Created"));
     },
 
     // Copy files
@@ -89,14 +89,6 @@ var TypeScriptApiGenerator = yeoman.generators.Base.extend({
     install: function() {
         this.installDependencies();
         this.spawnCommand('tsd', ['install']);
-    },
-
-    // Install typings
-    installTypings: function() {
-        // this.spawnCommand('tsd', ['install'], function() {
-        //     console.log("\n" + chalk.blue("TSD") + chalk.pink(" dependencies installed\n"));
-        // });
-        // console.log("TEST types");
     }
 
 });
