@@ -9,6 +9,10 @@
     "email": "abecker.db@gmail.com",
     "url": "https://github.com/dbaaron"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dbaaron/generators-tsapi.git"
+  },
   "files": [
     "app"
   ],
