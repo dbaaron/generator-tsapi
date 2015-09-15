@@ -8,25 +8,19 @@ Make sure you have Yeoman installed on your Node.js system.
 npm install -g yo
 ```
 
-### Link
+### Run The Generator
 
-Link local directory to package manager:
+To install generator-tsapi from NPM:
 
 ```bash
-cd ~/dev/generator-tsapi
-npm link
+npm install -g generator-tsapi
 ```
-Replacing "~/dev//generator-tsapi" with the path to your local directory
-
-### Run Generator
 
 Finally, initiate the generator by running:
 
 ```bash
-cd ~/dev/Project
 yo tsapi
 ```
-Replacing "~/dev/Project" with the path to your local directory
 
 ## License
 
